@@ -10,6 +10,7 @@
 // Task: Write a simple if statement
 // Hint: Just check one condition at a time
 function easyProblem1(membershipLevel, age) {
+    
     // TODO: Write your code here
     // If membershipLevel is "Gold" AND age is 21, return "can access"
     // Otherwise return "go home"
