@@ -11,9 +11,9 @@
 // Hint: && means both must be true
 function easyProblem1(playerRank, level) {
     if(playerRank === "Elite" && level === 10){
-        return "can access"
+        return "can access";
     }else{
-        return "go home"
+        return "go home";
     }
     // TODO: Write your code here
     // Check if playerRank is "Elite" AND level is 10
@@ -32,9 +32,9 @@ console.log("Easy 1 - Test 3:", easyProblem1("Pro", 10)); // Should print: "go h
 // Hint: !== means "not equal to"
 function easyProblem2(playerRank, level) {
     if(level === 10 && playerRank !== "Elite"){
-        return "can sign in "
+        return "can sign in ";
     }else{
-        return "go home"
+        return "go home";
     }
     // TODO: Write your code here
     // Check if level is 10 AND playerRank is NOT "Elite"
@@ -53,13 +53,13 @@ console.log("Easy 2 - Test 3:", easyProblem2("Beginner", 8)); // Should print: "
 // Hint: Check conditions one by one
 function mediumProblem(playerRank, level) {
     if(playerRank === "Elite" && level === 10){
-        return "can access"
+        return "can access";
     }
     else if(level === 10 && playerRank !== "Elite"){
-        return " can sign in "
+        return " can sign in ";
     }
     else{
-        return "go home"
+        return "go home";
     }
     // TODO: Write your code here
     // Write if-else if-else to handle:
@@ -83,14 +83,14 @@ console.log("Medium - Test 5:", mediumProblem("Master", 15)); // Should print: "
 function hardProblem(playerRank, level) {
     if(level === 10){
         if(playerRank === "Elite"){
-            return "can access"
+            return "can access";
         }
         else{
-            return " can sign in "
+            return " can sign in ";
         }
     }
     else{
-        return "go home"
+        return "go home";
     }
     // TODO: Write your code here
     // Use nested if statements:

@@ -13,6 +13,12 @@ function easyProblem1(servicePackage, age) {
     // TODO: Write your code here
     // If servicePackage is "Royal" AND age is 21, return "can access"
     // Otherwise return "go home"
+
+    if (servicePackage === "Royal" && age === 21) {
+        return "can access";
+    } else {
+        return "go home";
+    }
 }
 
 // Test your code:
@@ -29,6 +35,12 @@ function easyProblem2(servicePackage, age) {
     // TODO: Write your code here
     // If age is 21 AND servicePackage is NOT "Royal", return "can sign in"
     // Otherwise return "go home"
+
+    if (age === 21 && servicePackage !== "Royal") {
+        return "can sign in";
+    } else {
+        return "go home";
+    }
 }
 
 // Test your code:
@@ -54,6 +66,14 @@ function mediumProblem(servicePackage, age) {
     // }
     //
     // Remember: Check servicePackage === "Royal" && age === 21 first!
+
+    if (servicePackage === "Royal" && age === 21) {
+        return "can access";
+    } else if (age === 21 && servicePackage !== "Royal") {
+        return "can sign in";
+    } else {
+        return "go home";
+    }
 }
 
 // Test your code:
@@ -81,6 +101,16 @@ function hardProblem(servicePackage, age) {
     //     - Return "go home"
     //
     // Why is this structure better? Think about it!
+
+    if (age === 21) {
+        if (servicePackage === "Royal") {
+            return "can access";
+        } else {
+            return "can sign in";
+        }
+    } else {
+        return "go home";
+    }
 }
 
 // Test your code:
@@ -90,4 +120,3 @@ console.log("Hard - Test 3:", hardProblem("Royal", 20)); // Should print: "go ho
 console.log("Hard - Test 4:", hardProblem("Deluxe", 21)); // Should print: "can sign in"
 console.log("Hard - Test 5:", hardProblem("Standard", 30)); // Should print: "go home"
 console.log("Hard - Test 6:", hardProblem("Basic", 21)); // Should print: "can sign in"
-

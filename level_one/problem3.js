@@ -11,10 +11,10 @@
 // Hint: Just check one condition at a time
 function easyProblem1(membershipLevel, age) {
     if (membershipLevel === "Gold" && age === 21){
-        return "can access"
+        return "can access";
     }
     else{
-        return "go home"
+        return "go home";
     }
     // TODO: Write your code here
     // If membershipLevel is "Gold" AND age is 21, return "can access"
@@ -32,10 +32,10 @@ console.log("Easy 1 - Test 2:", easyProblem1("Silver", 21)); // Should print: "g
 // Hint: if handles one casrn 
 function easyProblem2(membershipLevel, age) {
     if(age === 21 && membershipLevel !== "Gold"){
-        return "can sign in "
+        return "can sign in ";
     }
     else{
-        return "go home"
+        return "go home";
     }
     
     // TODO: Write your code here
@@ -56,14 +56,14 @@ console.log("Easy 2 - Test 3:", easyProblem2("Bronze", 20)); // Should print: "g
 function mediumProblem(membershipLevel, age) {
     // TODO: Write your code here
     if(membershipLevel === "Gold" && age === 21){
-        return "can access"
+        return "can access";
     }
     else if(age === 21 && membershipLevel !== "Gold"){
-        return "can sign in "
+        return "can sign in ";
 
     }
     else{
-        return "go home"
+        return "go home";
     }
 
     // Create a complete if-else if-else chain:

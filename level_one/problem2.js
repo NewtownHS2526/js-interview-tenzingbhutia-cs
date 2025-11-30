@@ -83,7 +83,7 @@ function hardProblem(ticketType, age) {
         return "can access";
     }
     else if(ticketType !== "VIP" && age === 16){
-        return "can sign in "
+        return "can sign in ";
     }
     else {
         return "go home";
